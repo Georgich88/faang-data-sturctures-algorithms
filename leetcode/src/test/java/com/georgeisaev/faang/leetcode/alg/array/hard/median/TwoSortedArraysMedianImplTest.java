@@ -1,4 +1,4 @@
-package com.georgeisaev.faang.leetcode.alg.array.median;
+package com.georgeisaev.faang.leetcode.alg.array.hard.median;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -29,12 +29,10 @@ class TwoSortedArraysMedianImplTest {
 		assertEquals(0, algorithm.findMedianSortedArrays(new int[]{0, 0}, new int[]{0, 0}));
 	}
 
-
 	@Test
 	void shouldProduceMedian4() {
 		assertEquals(1, algorithm.findMedianSortedArrays(new int[0], new int[]{1}));
 	}
-
 
 	@Test
 	void shouldProduceMedian5() {

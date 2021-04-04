@@ -1,4 +1,4 @@
-package com.georgeisaev.faang.leetcode.alg.array.median;
+package com.georgeisaev.faang.leetcode.alg.array.hard.median;
 
 public class TwoSortedArraysMedianImpl implements TwoSortedArraysMedian {
 
