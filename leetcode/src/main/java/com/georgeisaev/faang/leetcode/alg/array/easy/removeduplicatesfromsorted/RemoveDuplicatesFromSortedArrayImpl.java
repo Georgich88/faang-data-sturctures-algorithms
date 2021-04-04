@@ -7,23 +7,18 @@ public class RemoveDuplicatesFromSortedArrayImpl implements RemoveDuplicatesFrom
 		if (nums.length == 0) {
 			return 0;
 		}
-
-		int length = nums.length; // length of unique sorted array
-		int position = 0; // position of unique sorted array
-		int value = nums[position]; // current value
-
-		while (position < length - 1) {
-			if (nums[position + 1] != value) {
-				value = nums[position + 1];
-				position = position + 1;
-			} else {
-				length--;
-				for (int j = position + 1; j < nums.length - 1; j++) {
-					nums[j] = nums[j + 1];
-				}
+		// Auxiliary variable
+		int position; // position of unique sorted array
+		int length = 1; // length of unique sorted array
+		int value = nums[0]; // current value
+		// Array offset
+		for (position = 1; position < nums.length; position++) {
+			if (nums[position] != value) {
+				value = nums[position];
+				nums[length] = nums[position];
+				length++;
 			}
 		}
-
 		return length;
 	}
 
