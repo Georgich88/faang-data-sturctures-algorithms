@@ -11,9 +11,11 @@ public class TriplesSumClosestImpl implements TriplesSumClosest {
 		int difference = Integer.MAX_VALUE;
 		int currentDifference;
 		int currentSum;
+		// Temp addition terms
 		int first;
 		int second;
 		int third;
+		// Indices of second and third terms
 		int left;
 		int right;
 		// Defining closest sum variable
