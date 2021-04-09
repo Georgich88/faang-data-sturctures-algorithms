@@ -17,10 +17,9 @@ class TriplesSumImplTest {
 	}
 
 	@Test
-	void shouldDefineMaxArea() {
+	void shouldDefineThreeSum() {
 		assertEquals(List.of(List.of(-1, 0, 1), List.of(-1, -1, 2)),
 				algorithm.threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
-
 	}
 
 }
