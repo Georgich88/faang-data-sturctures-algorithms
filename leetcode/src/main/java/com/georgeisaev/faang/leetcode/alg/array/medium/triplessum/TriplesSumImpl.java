@@ -17,9 +17,7 @@ public class TriplesSumImpl implements TriplesSum {
 		for (int number : nums) {
 			uniqueCounter.merge(number, 1, Integer::sum);
 		}
-		uniqueCounter.forEach((firstNumber, firstCount) -> {
-			addNumbers(triplets, uniqueCounter, firstNumber, firstCount);
-		});
+		uniqueCounter.forEach((firstNumber, firstCount) -> addNumbers(triplets, uniqueCounter, firstNumber, firstCount));
 		return triplets;
 	}
 
