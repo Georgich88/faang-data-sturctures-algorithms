@@ -1,4 +1,4 @@
-package com.georgeisaev.faang.leetcode.alg.array.easy.maxSum;
+package com.georgeisaev.faang.leetcode.alg.array.easy.maxsum;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
