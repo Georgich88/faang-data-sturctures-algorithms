@@ -1,5 +1,7 @@
 package com.georgeisaev.faang.leetcode.alg.array.easy.searchinsert;
 
+import com.georgeisaev.faang.leetcode.alg.array.easy.search.insert.SearchInsertPosition;
+import com.georgeisaev.faang.leetcode.alg.array.easy.search.insert.SearchInsertPositionImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

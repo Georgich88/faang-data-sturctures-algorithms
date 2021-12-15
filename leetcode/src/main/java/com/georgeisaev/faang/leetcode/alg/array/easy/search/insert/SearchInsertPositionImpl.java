@@ -1,4 +1,4 @@
-package com.georgeisaev.faang.leetcode.alg.array.easy.searchinsert;
+package com.georgeisaev.faang.leetcode.alg.array.easy.search.insert;
 
 public class SearchInsertPositionImpl implements SearchInsertPosition {
 

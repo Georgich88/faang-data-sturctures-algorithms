@@ -1,4 +1,4 @@
-package com.georgeisaev.faang.leetcode.alg.array.easy.searchinsert;
+package com.georgeisaev.faang.leetcode.alg.array.easy.search.insert;
 
 /**
  * Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return
