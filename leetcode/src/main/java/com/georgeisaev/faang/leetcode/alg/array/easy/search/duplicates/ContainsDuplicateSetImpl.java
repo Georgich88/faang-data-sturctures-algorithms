@@ -9,10 +9,9 @@ public class ContainsDuplicateSetImpl implements ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         Set<Integer> uniqueNums = new HashSet<>();
         for (int number : nums) {
-            if (uniqueNums.contains(number)) {
+            if (!uniqueNums.add(number)) {
                 return true;
             }
-            uniqueNums.add(number);
         }
         return false;
     }
