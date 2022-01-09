@@ -1,5 +1,7 @@
 package com.georgeisaev.faang.leetcode.alg.array.easy.sort.merge;
 
+import com.georgeisaev.faang.leetcode.alg.array.easy.twopointers.merge.MergeSortedArrays;
+import com.georgeisaev.faang.leetcode.alg.array.easy.twopointers.merge.MergeSortedArraysImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

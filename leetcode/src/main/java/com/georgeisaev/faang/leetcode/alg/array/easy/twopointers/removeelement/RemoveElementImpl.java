@@ -1,4 +1,4 @@
-package com.georgeisaev.faang.leetcode.alg.array.easy.removeelement;
+package com.georgeisaev.faang.leetcode.alg.array.easy.twopointers.removeelement;
 
 public class RemoveElementImpl implements RemoveElement {
 

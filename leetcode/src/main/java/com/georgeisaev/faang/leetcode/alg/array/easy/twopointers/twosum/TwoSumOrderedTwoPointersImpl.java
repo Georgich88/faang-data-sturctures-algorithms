@@ -1,4 +1,4 @@
-package com.georgeisaev.faang.leetcode.alg.array.easy.twosum;
+package com.georgeisaev.faang.leetcode.alg.array.easy.twopointers.twosum;
 
 import java.util.NoSuchElementException;
 

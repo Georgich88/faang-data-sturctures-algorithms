@@ -1,4 +1,4 @@
-package com.georgeisaev.faang.leetcode.alg.array.easy.twosum;
+package com.georgeisaev.faang.leetcode.alg.array.easy.twopointers.twosum;
 
 /**
  * Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such

@@ -1,4 +1,4 @@
-package com.georgeisaev.faang.leetcode.alg.array.easy.sort.merge;
+package com.georgeisaev.faang.leetcode.alg.array.easy.twopointers.merge;
 
 public interface MergeSortedArrays {
 

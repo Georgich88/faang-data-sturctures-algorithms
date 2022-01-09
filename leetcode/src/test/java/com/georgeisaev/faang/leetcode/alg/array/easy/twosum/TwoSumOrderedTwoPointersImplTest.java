@@ -1,5 +1,7 @@
 package com.georgeisaev.faang.leetcode.alg.array.easy.twosum;
 
+import com.georgeisaev.faang.leetcode.alg.array.easy.twopointers.twosum.TwoSumOrdered;
+import com.georgeisaev.faang.leetcode.alg.array.easy.twopointers.twosum.TwoSumOrderedTwoPointersImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

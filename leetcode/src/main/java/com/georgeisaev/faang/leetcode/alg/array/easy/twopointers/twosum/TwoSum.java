@@ -1,4 +1,4 @@
-package com.georgeisaev.faang.leetcode.alg.array.easy.twosum;
+package com.georgeisaev.faang.leetcode.alg.array.easy.twopointers.twosum;
 
 /**
  * Given an array of integers {@code nums} and an integer {@code target}, return indices of the two numbers such that

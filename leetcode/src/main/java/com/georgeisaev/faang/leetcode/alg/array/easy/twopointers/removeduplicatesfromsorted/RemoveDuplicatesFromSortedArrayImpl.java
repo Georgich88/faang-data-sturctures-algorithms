@@ -1,4 +1,4 @@
-package com.georgeisaev.faang.leetcode.alg.array.easy.removeduplicatesfromsorted;
+package com.georgeisaev.faang.leetcode.alg.array.easy.twopointers.removeduplicatesfromsorted;
 
 public class RemoveDuplicatesFromSortedArrayImpl implements RemoveDuplicatesFromSortedArray {
 
