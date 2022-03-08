@@ -11,9 +11,11 @@ import com.georgeisaev.faang.leetcode.alg.Glove;
 @Glove
 public interface BinomialCoefficient {
 
-    /** Calculates binomial coefficient
-     * @param n
-     * @param k
+    /**
+     * Calculates binomial coefficient
+     *
+     * @param n number of sets of elements
+     * @param k number of elements in sets
      * @return the binomial coefficient
      */
     int binomialCoefficient(int n, int k);
