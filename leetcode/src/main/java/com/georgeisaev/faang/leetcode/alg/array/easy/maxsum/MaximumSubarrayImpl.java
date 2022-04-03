@@ -8,8 +8,8 @@ public class MaximumSubarrayImpl implements MaximumSubarray {
 		int sum = nums[0];
 		int currentSum = 0;
 
-		for (int i = 0; i < nums.length; i++) {
-			currentSum += nums[i];
+		for (int num : nums) {
+			currentSum += num;
 			if (currentSum > sum) {
 				sum = currentSum;
 			}

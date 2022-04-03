@@ -1,5 +1,7 @@
 package com.georgeisaev.faang.leetcode.alg.array.easy.removeelement;
 
+import com.georgeisaev.faang.leetcode.alg.array.easy.twopointers.removeelement.RemoveElement;
+import com.georgeisaev.faang.leetcode.alg.array.easy.twopointers.removeelement.RemoveElementImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

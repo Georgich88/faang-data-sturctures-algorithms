@@ -1,5 +1,7 @@
 package com.georgeisaev.faang.leetcode.alg.array.easy.removeduplicatesfromsorted;
 
+import com.georgeisaev.faang.leetcode.alg.array.easy.twopointers.removeduplicatesfromsorted.RemoveDuplicatesFromSortedArray;
+import com.georgeisaev.faang.leetcode.alg.array.easy.twopointers.removeduplicatesfromsorted.RemoveDuplicatesFromSortedArrayImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
