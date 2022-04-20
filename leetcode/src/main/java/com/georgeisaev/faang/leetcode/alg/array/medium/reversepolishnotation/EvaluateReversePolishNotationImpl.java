@@ -1,6 +1,5 @@
 package com.georgeisaev.faang.leetcode.alg.array.medium.reversepolishnotation;
 
-import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Map;
@@ -14,6 +13,7 @@ public class EvaluateReversePolishNotationImpl implements EvaluateReversePolishN
                     "*", (a, b) -> a * b,
                     "/", (a, b) -> a / b);
 
+    @SuppressWarnings("ConstantConditions")
     @Override
     public int evalRPN(String[] tokens) {
         Deque<Integer> values = new LinkedList<>();
