@@ -1,4 +1,4 @@
-package com.georgeisaev.faang.leetcode.alg.array.medium.foursum;
+package com.georgeisaev.faang.leetcode.alg.array.medium.sum;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
