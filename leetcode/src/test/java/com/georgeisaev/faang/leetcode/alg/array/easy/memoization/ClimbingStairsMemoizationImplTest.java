@@ -1,5 +1,7 @@
 package com.georgeisaev.faang.leetcode.alg.array.easy.memoization;
 
+import com.georgeisaev.faang.leetcode.alg.dynamic.easy.memoization.ClimbingStairs;
+import com.georgeisaev.faang.leetcode.alg.dynamic.easy.memoization.ClimbingStairsMemoizationImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

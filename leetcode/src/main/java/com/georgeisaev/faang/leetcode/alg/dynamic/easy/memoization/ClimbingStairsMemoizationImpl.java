@@ -1,4 +1,4 @@
-package com.georgeisaev.faang.leetcode.alg.array.easy.memoization;
+package com.georgeisaev.faang.leetcode.alg.dynamic.easy.memoization;
 
 public class ClimbingStairsMemoizationImpl implements ClimbingStairs {
 
