@@ -4,15 +4,12 @@ public class BestTimeBuySellStockImpl implements BestTimeBuySellStock {
 
     @Override
     public int maxProfit(int[] prices) {
-        int minPrice = prices[0];
+        int minPrice = Integer.MAX_VALUE;
         int maxProfit = 0;
-        for (int i = 1; i < prices.length; i++) {
-            if (prices[i] < minPrice) {
-                minPrice = prices[i];
-            }
-            if ((prices[i] - minPrice) > maxProfit) {
-                maxProfit = prices[i] - minPrice;
-            }
+        for(int price : prices) {
+            if (price < minPrice) minPrice = price;
+            int currentProfit = price - minPrice;
+            if (maxProfit < currentProfit) maxProfit = currentProfit;
         }
         return maxProfit;
     }
