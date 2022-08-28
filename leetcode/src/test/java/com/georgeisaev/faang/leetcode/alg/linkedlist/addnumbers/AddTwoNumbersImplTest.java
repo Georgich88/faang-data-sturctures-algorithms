@@ -1,5 +1,6 @@
 package com.georgeisaev.faang.leetcode.alg.linkedlist.addnumbers;
 
+import com.georgeisaev.faang.leetcode.alg.linkedlist.ListNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

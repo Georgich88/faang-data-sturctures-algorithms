@@ -1,5 +1,7 @@
 package com.georgeisaev.faang.leetcode.alg.linkedlist.addnumbers;
 
+import com.georgeisaev.faang.leetcode.alg.linkedlist.ListNode;
+
 public class AddTwoNumbersImpl implements AddTwoNumbers {
 
     @Override

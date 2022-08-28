@@ -1,5 +1,7 @@
 package com.georgeisaev.faang.leetcode.alg.linkedlist.twopointers;
 
+import com.georgeisaev.faang.leetcode.alg.linkedlist.ListNode;
+
 public class LinkedListMiddleImpl implements LinkedListMiddle {
 
     @Override
